@@ -16,13 +16,13 @@ import { CartContext } from '../../context/CartContex';
 
     for (let i=0; i < 5; i++) {
       if (rating > 0.5) {
-        stars.push(<i Key={1} class="bi bi-star-fill" ></i>);
+        stars.push(<i Key={1} className="bi bi-star-fill" ></i>);
         rating--;
       } else if( rating > 0 && rating < 1) {
-        stars.push(<i Key={'half'} class="bi bi-star-half"></i>);
+        stars.push(<i Key={'half'} className="bi bi-star-half"></i>);
         rating--;
       } else {
-        stars.push(<i Key={`empty${i}`} class="bi bi-star"></i>);
+        stars.push(<i Key={`empty${i}`} className="bi bi-star"></i>);
       }
     }
     return stars;

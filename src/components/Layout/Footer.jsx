@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 
 
 function Footer() {
+  console.log('Footer renderizado');
   return (
     <footer>
       <Container>

@@ -18,27 +18,28 @@ import Reservas from './Reservas';
 const Restaurant = () => {
   return (
 
-    <Layout >
-      <main>
-        {/*Home Section Hero Banner */}
-        <About />
 
-        {/*Home Section About */}
-        <Especialidades />
+    <main>
+      {/*Home Section About */}
+      <About />
 
-        {/*Home Section Menu */}
-        <Menu />
+      {/*Home Section Especialidade */}
+      <Especialidades />
 
-        {/*Home Section Menu Grupo */}
-        <MenuGrupo />
+      {/*Home Section Menu */}
+      <Menu />
 
-        {/*Home Section Testimonials */}
-        <Testimonials />
+      {/*Home Section Menu Grupo */}
+      <MenuGrupo />
 
-        {/*Home Section Reservas */}
-        <Reservas />
-      </main>
-    </Layout>
+      {/*Home Section Testimonials */}
+      <Testimonials />
+
+      {/*Home Section Reservas */}
+      <Reservas />
+
+    </main>
+
 
   )
 }

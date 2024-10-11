@@ -24,7 +24,6 @@ function Header() {
   window.addEventListener("scroll", changeValueOnScroll);
 
   // const {handleOpen} = useContext(CartContext);
-
   return (
     <header>
 

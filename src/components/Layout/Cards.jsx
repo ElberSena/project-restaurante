@@ -37,7 +37,7 @@ function Cards({ image, rating, title, paragraph, price, renderRatingIcons }) {
             </div>
             <div className='add_to_card'>
               <Link onClick={handleAddToCart}>
-                <i class='bi bi-bag me-2'></i>
+                <i className='bi bi-bag me-2'></i>
                 Add to Cart
               </Link>
             </div>

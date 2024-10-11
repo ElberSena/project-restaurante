@@ -21,14 +21,13 @@ function App() {
       <Router>
         <Layout>
           <Routes>
-            <Route path='/' element={<Restaurant />} />
+            <Route exact path='/' element={<Restaurant />} />
             <Route path='/about' element={<About />} />
             <Route path='/especialidades' element={<Especialidades />} />
             <Route path='/menu' element={<Menu />} />
             <Route path='/menuGrupo' element={<MenuGrupo />} />
             <Route path='/reservas' element={<Reservas />} />
             <Route path='/legal' element={<Legal />} />
-            <Route />
           </Routes>
         </Layout>
       </Router>

@@ -6,8 +6,8 @@ header .navbar{
     z-index: 1000;
 }
 
-.content-navbar-pages{
-    padding: 80px;
+.content-navbar-pages {
+    padding-top: 80px;
 }
 
 header .navbar.sticky{

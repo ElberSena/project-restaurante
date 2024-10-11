@@ -29,7 +29,7 @@ function About() {
     <section className='about_section'>
                 <Container>
                     <Row>
-                        <Col lg={{ span: 8, offset: 2 }} className='Text-center'>
+                        <Col lg={{ span: 8, offset: 2 }} className='text-center'>
                             <h2>Sobre este Lugar</h2>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam delectus quo voluptatum vitae at reprehenderit nulla numquam quibusdam. Vero pariatur possimus dolorem ullam, eveniet corrupti blanditiis veritatis asperiores neque vitae.

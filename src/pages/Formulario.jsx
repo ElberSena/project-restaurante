@@ -73,8 +73,6 @@ const Formulario = ({ numPeople, date, time }) => {
                     </Col>
                 </Row>
             </Container>
-
-
         </section>
     )
 };

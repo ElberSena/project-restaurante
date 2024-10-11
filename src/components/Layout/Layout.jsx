@@ -9,11 +9,11 @@ import CookiesConsent from '../../containers/Cookies/CookiesConsent'
 function Layout({children}) {
   return (
     <>
-    <Header />
-    <div className='.content-navbar-pages'>{children}</div>
-    <CookiesConsent />
-    <Footer />
-    <ModalCarrinho />
+      <Header />
+      <div className='content-navbar-pages'>{children}</div>
+      <CookiesConsent />
+      <Footer />
+      <ModalCarrinho />
     </>
   )
 }
